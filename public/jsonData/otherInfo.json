@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Email",
+        "description": "muskan.10151@gmail.com"
+    },
+    {
+        "id": 2,
+        "title": "LinkedIn",
+        "description": "https://www.linkedin.com/in/muskan-25-aggarwal/"
+    },
+    {
+        "id": 3,
+        "title": "Github",
+        "description": "https://github.com/muskan251027"
+    },
+    {
+        "id": 4,
+        "title": "Phone Number",
+        "description": "xxx-xxx-xxxx"
+    }
+]

@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "title": "EQUIST (Equitable Impact Sensitive Tool)",
+        "url": "https://equist.info/#/",
+        "slug": "A platform by UNICEF to facilitate decision makers' development of equitable strategies to improve health and nutrition of the women and children in most vulnerable situations.",
+        "image": null,
+        "content": "My responsibilties - Created dashboard, scenario analysis and user authentication on Angular framework, worked on CMS setup for admin in CakePhp and handled complex queries for database management.",
+        "type_id": 2,
+        "user_id": 1,
+        "created_at": "2023-04-17T15:24:49.000000Z",
+        "updated_at": "2023-04-17T15:24:49.000000Z",
+        "user": {
+            "id": 1,
+            "first": "Muskan",
+            "last": "Aggarwal",
+            "email": "muskan.10151@gmail.com",
+            "email_verified_at": "2023-04-17T15:24:49.000000Z",
+            "created_at": "2023-04-17T15:24:49.000000Z",
+            "updated_at": "2023-04-17T15:24:49.000000Z"
+        },
+        "type": {
+            "id": 2,
+            "title": "UNICEF project for vulnerable women and children.",
+            "created_at": "2023-04-17T15:24:49.000000Z",
+            "updated_at": "2023-04-17T15:24:49.000000Z"
+        }
+    },
+    {
+        "id": 2,
+        "title": "SAFER ROADS (City Intervention In India)",
+        "url": " https://test.saferroads.in/",
+        "slug": "An initiative led by AB InBev (Anheuser-Busch InBev) to make Gurugram's roadways safer through data-driven initiatives and constructive behavioral change.",
+        "image": null,
+        "content": "My responsibilties -  Built dashboard to analyze road accidents and fatalities in black spots of India and integration of highcharts and google maps for demonstrating data.",
+        "type_id": 1,
+        "user_id": 1,
+        "created_at": "2023-04-17T15:24:49.000000Z",
+        "updated_at": "2023-04-17T15:24:49.000000Z",
+        "user": {
+            "id": 1,
+            "first": "Muskan",
+            "last": "Aggarwal",
+            "email": "muskan.10151@gmail.com",
+            "email_verified_at": "2023-04-17T15:24:49.000000Z",
+            "created_at": "2023-04-17T15:24:49.000000Z",
+            "updated_at": "2023-04-17T15:24:49.000000Z"
+        },
+        "type": {
+            "id": 1,
+            "title": "Saferroads to analyze data to prevent accidents",
+            "created_at": "2023-04-17T15:24:49.000000Z",
+            "updated_at": "2023-04-17T15:24:49.000000Z"
+        }
+    },
+    {
+        "id": 3,
+        "title": "UN INFO (UNDP)",
+        "url": "https://uninfo.org/",
+        "slug": "An online planning, monitoring and reporting system that digitizes each UNDAF/UNSDCF and the Joint work plans that go with them.",
+        "image": null,
+        "content": "My responsibilities - Management of dashboard including complicated module development and enhancement of application using JS and JQuery.",
+        "type_id": 3,
+        "user_id": 1,
+        "created_at": "2023-04-17T15:24:49.000000Z",
+        "updated_at": "2023-04-17T15:24:49.000000Z",
+        "user": {
+            "id": 1,
+            "first": "Muskan",
+            "last": "Aggarwal",
+            "email": "muskan.10151@gmail.com",
+            "email_verified_at": "2023-04-17T15:24:49.000000Z",
+            "created_at": "2023-04-17T15:24:49.000000Z",
+            "updated_at": "2023-04-17T15:24:49.000000Z"
+        },
+        "type": {
+            "id": 3,
+            "title": "UN INFO DASHBOARD",
+            "created_at": "2023-04-17T15:24:49.000000Z",
+            "updated_at": "2023-04-17T15:24:49.000000Z"
+        }
+    }
+]

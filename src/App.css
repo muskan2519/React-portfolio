@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+
+/* default settings */
+html {
+    box-sizing: border-box;
+    font: 300 16px "Fahkwang";
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+h1 {
+    font-weight: 600;
+    font-size: 3.4375em; /* 55px = 55/16em = 3.4375em */
+    color: #FFFFFF;
+    text-shadow: 0px 6px 5px rgba(0, 0, 0, 0.62);
+}
+h2 {
+    font-weight: 500;
+    font-size: 1.875em;
+    color: #100F0F;
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
+}
+h3 {
+    font-weight: 700;
+    font-size: 1.375em;
+    color: #591313;
+}
+h4 {
+    font-weight: 500;
+    font-size: 1.5625em;
+}
+h5 {
+    font-weight: 700;
+    font-size: 1.25em;
+    color: #343434;
+}
+h6 {
+    font-weight: 300;
+    font-size: 1.0625em;
+    color: #3F3E3E;
+}
+
+/* CSS for Header */
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 100px;
+    column-gap: 20px;
+}
+
+/* CSS for Site Logo */
+.headerLogo {
+    width: 130px;
+    height: 130px;
+}
+.outerCircle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: inset 2px -2px 10px 5px rgb(105 20 20 / 60%);
+}
+.innerCircle {
+    position: relative;
+    left: 10%;
+    top: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 10px 5px rgba(105, 20, 20, 0.6);
+}
+.headerText {
+    font-family: 'Kolker Brush';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.75em;
+    position: relative;
+    text-align: center;
+    top: 20%;
+    color: #000000;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #691414;
+    text-shadow: 0px 7px 2px rgb(105 20 20 / 25%);
+}
+
+/* CSS for Navigation Menu */
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+header nav ul li {
+    display: inline-block;
+    margin-left: 60px;
+}
+header nav ul li:first-child {
+    margin-left: 0px;
+}
+header nav ul li a {
+    font-weight: 400;
+    font-size: 1.5625em;
+    color: #100F0F;
+    text-decoration: none;
+    cursor: pointer;
+}
+header nav ul li a:hover {
+    color: #691414;
+}
+
+/* CSS for copyright section */
+.copyrightText {
+  background: #131313;
+  padding: 17px 0px;
+  font-weight: 200;
+  font-size: 0.9375em;
+  color: #EBE6E6;
+  text-shadow: 0px 6px 5px rgba(0, 0, 0, 0.62);
+  text-align: center;
+}
+
+/* CSS for body section 1 */
+.bodySection1 {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+.bodySection1 img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.bodySection1 .section1Text {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+}
+.bodySection1 .section1Text h4 {
+  color: #EBE6E6;
+  text-shadow: 0px 6px 5px rgba(0, 0, 0, 0.62);
+  margin-top: 11px;
+  font-size: 1.5625em;
+}
+
+/* CSS for body section 2 */
+.bodySection {
+  margin: 60px 150px;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+.bodySection2 p {
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
+/* CSS for body section 3 */
+.bodySection3 .experienceContainer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.bodySection3 .experienceContainer div {
+  background: #F9F9F9;
+  box-shadow: 0px 6px 11px 3px rgba(0, 0, 0, 0.4);
+  padding: 15px;
+  width: 30%;
+}
+.bodySection3 .experienceContainer div h5 {
+  font-size: 1.1em;
+}
+
+/* CSS for body section 4 */
+.bodySection4 .skillsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.bodySection4 .skillsContainer div {
+  background: #F9F9F9;
+  box-shadow: 0px 6px 11px 3px rgba(0, 0, 0, 0.4);
+  padding: 50px;
+  border-radius: 50%;
+  /* width: 30%; */
+}
+
+/* CSS for body section 5 */
+.bodySection5 .projectsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.bodySection5 .projectsContainer div {
+  background: #F9F9F9;
+  box-shadow: 0px 6px 11px 3px rgba(0, 0, 0, 0.4);
+  padding: 15px;
+  width: 30%;
+}
+.bodySection5 .projectsContainer div .slug {
+  font-weight: bolder;
+}
+.bodySection5 .projectsContainer .signed {
+  box-shadow: none;
+  text-align: right;
+  font-weight: bolder;
+  width: 100%;
+}
+.bodySection5 .projectsContainer div h5 {
+  font-size: 1.1em;
+}
+
+/* CSS for body section 6 */
+.bodySection6 .otherInfoContainer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  background-color: #591313;
+  padding: 30px;
+}
+.bodySection6 .otherInfoContainer div {
+  background: #F9F9F9;
+  box-shadow: 0px 6px 11px 3px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  width: 30%;
+}
+.bodySection6 .otherInfoContainer div h5 {
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+/* Media Queries to make portfolio responsive */
+@media screen and (max-width:1160px) {
+  header {
+    padding: 10px 50px;
+  }
+  header nav ul li {
+      margin-left: 35px;
+  }
+  header nav ul li a {
+      font-size: 1.2625em;
+  }
+  .headerLogo {
+      width: 100px;
+      height: 100px;
+  }
+  .headerText {
+    font-size: 2.75em;
+  }
+}
+
+@media screen and (max-width:720px) {
+  header {
+    flex-direction: column;
+  }
+  .bodySection1 .section1Text {
+    top: 20%;
+  }
+  .bodySection1 .section1Text h1 {
+    font-size: 3em;
+  }
+  .bodySection1 .section1Text h4 {
+    font-size: 1.3em;
+  }
+  .bodySection {
+    margin: 50px 50px;
+  }
+  .bodySection3 .experienceContainer div {
+    width: 45%;
+  }
+  .bodySection5 .projectsContainer div {
+    width: 100%;
+  }
+  .bodySection6 .otherInfoContainer div {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:350px) {
+  header nav ul li {
+    display: block;
+  }
+  header nav ul li:first-child {
+    margin-left: 35px;
+  }
+  .bodySection1 .section1Text h1 {
+    font-size: 2em;
+  }
+  .bodySection1 .section1Text h4 {
+    font-size: 1em;
+  }
+  .bodySection {
+    margin: 30px 30px;
+  }
+  .bodySection2 p {
+    font-size: 1em;
+  }
+  .bodySection3 .experienceContainer div {
+    width: 100%;
+  }
+  .bodySection6 .otherInfoContainer div {
+    width: 100%;
+  }
+}
