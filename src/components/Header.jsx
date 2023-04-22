@@ -12,6 +12,7 @@ export default function Header() {
             <nav id="mainNav">
                 <ul className="navList">
                     <li className="navListItem"><a href="#bodySection2">ABOUT</a></li>
+                    <li className="navListItem"><a href="#bodySection7">EDUCATION</a></li>
                     <li className="navListItem"><a href="#bodySection3">EXPERIENCE</a></li>
                     <li className="navListItem"><a href="#bodySection4">SKILLS</a></li>
                     <li className="navListItem"><a href="#bodySection5">PROJECTS</a></li>

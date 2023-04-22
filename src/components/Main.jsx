@@ -1,3 +1,4 @@
+import Education from "./Education"
 import Experience from "./Experience"
 import OtherInfo from "./OtherInfo"
 import Projects from "./Projects"
@@ -19,6 +20,11 @@ export default function Main() {
             <section className="bodySection2 bodySection" id="bodySection2">
                 <h2>About Me</h2>
                 <p>I am a dedicated and result oriented Software Developer with around 3 years of professional experience in designing and developing websites/softwares as well as creating and launching both android and IOS based mobile applications.</p>
+            </section>
+
+            <section className="bodySection3 bodySection" id="bodySection7">
+                <h2>Education</h2>
+                <Education />
             </section>
 
             <section className="bodySection3 bodySection" id="bodySection3">
